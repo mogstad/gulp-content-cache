@@ -1,0 +1,29 @@
+{
+  "name": "gulp-content-cache",
+  "version": "0.1.0",
+  "description": "Gulp plugin that caches the result of heavy operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mogstad/gulp-content-cache.git"
+  },
+  "author": "Bjarne Mogstad <bjarne@metalab.co>",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.6.2"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.6.0",
+    "through2-spy": "^1.2.0",
+    "vinyl": "^0.4.3"
+  }
+}
